@@ -1,0 +1,157 @@
+/*--------------------------------------------------------------
+# Genenal secation
+--------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+
+.secation-title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    margin-bottom: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# header secation
+--------------------------------------------------------------*/
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    padding-right: 48px;
+    color: #3C3C3C;
+}
+
+header {
+    background: #FFF9F4;
+    padding-bottom: 100px;
+}
+
+.hero-text h2 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color:
+        #363958;
+    margin-bottom: 8px;
+}
+
+.hero-text h2 span {
+
+    color: #FA804C;
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+    margin-bottom: 24px;
+}
+
+.BUY-btn {
+    padding: 18px 34px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    color: white;
+    border: 0;
+
+}
+
+.hero-text a img {
+    margin-right: 8px;
+}
+
+
+/*--------------------------------------------------------------
+# CASUAL SHOES
+--------------------------------------------------------------*/
+.casual-shoes {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.shoes-items {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 18px;
+}
+
+.shoes-img {
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+
+.shoes-items h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+
+.shoes-items p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+    margin-bottom: 12px;
+}
+
+.price h4 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FA804C;
+}
+
+
+
+/*--------------------------------------------------------------
+# Find the Perfect Fit
+--------------------------------------------------------------*/
+.find-items {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px 27px;
+    margin-bottom: 16px;
+}
+
+.find {
+    padding: 30px 0px;
+}
+
+.single-items {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.details h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    margin-bottom: 14px;
+}
+
+.details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+}
